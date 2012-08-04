@@ -1,6 +1,6 @@
 ---
 layout: default 
-title: Eternal loop
+title: Byambatsogt Tumurkhuu 
 ---
 
 {% for post in site.posts limit: 4 %}
@@ -9,7 +9,7 @@ title: Eternal loop
     <div>{{ post.date | date: "%B %e, %Y" }}</div> 
 
     <h4 class="post-title">
-      <a class="post_title" href="{{ site.posts.first.url }}">{{ post.title }}</a>
+      <a class="post_title" href="{{ post.url }}">{{ post.title }}</a>
     </h4>
 
     <div class="post-content"> 
